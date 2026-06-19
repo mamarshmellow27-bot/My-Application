@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Bustrack" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/header_bg</item>
+        <item name="android:statusBarColor">@color/header_bg</item>
+    </style>
+
+    <style name="Theme.Bustrack" parent="Base.Theme.Bustrack" />
+
+    <style name="CircleImage">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="RoundedCorner20">
+        <item name="cornerSize">20dp</item>
+    </style>
+
+    <style name="RoundedCorner12">
+        <item name="cornerSize">12dp</item>
+    </style>
+</resources>
